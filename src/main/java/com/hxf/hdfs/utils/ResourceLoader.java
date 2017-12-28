@@ -31,10 +31,10 @@ public class ResourceLoader {
 
     public void loadProperties2() throws IOException {
         InputStream input = null;
-        System.out.println(this.getClass().getResource("")+"------");
-        System.out.println(this.getClass().getResource("/")+"------");
-        System.out.println(this.getClass().getResource("/resources/")+"========");
-        System.out.println(this.getClass().getResource("resources/")+"========");
+        System.out.println(this.getClass().getResource("") + "------");
+        System.out.println(this.getClass().getResource("/") + "------");
+        System.out.println(this.getClass().getResource("/resources/") + "========");
+        System.out.println(this.getClass().getResource("resources/") + "========");
         input = this.getClass().getResourceAsStream("/resources/config.properties");
         printProperties(input);
     }
