@@ -11,7 +11,7 @@ import java.util.Properties;
 public class ResourceLoader {
     public static void main(String[] args) throws IOException {
         ResourceLoader resourceLoader = new ResourceLoader();
-//        resourceLoader.loadProperties1();
+        resourceLoader.loadProperties1();
         resourceLoader.loadProperties2();
         resourceLoader.loadProperties3();
         resourceLoader.loadProperties4();
