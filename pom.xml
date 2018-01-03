@@ -26,10 +26,17 @@
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-hdfs</artifactId>
             <version>2.6.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/hadoop-hdfs-2.6.0.jar</systemPath>
+            <!--<scope>system</scope>-->
+            <!--<systemPath>${basedir}/lib/hadoop-hdfs-2.6.0.jar</systemPath>-->
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.hadoop</groupId>
+            <artifactId>hadoop-client</artifactId>
+            <version>2.6.0</version>
+            <!--<scope>system</scope>-->
+            <!--<systemPath>${basedir}/lib/hadoop-hdfs-2.6.0.jar</systemPath>-->
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core -->
         <dependency>
@@ -58,8 +65,8 @@
             <groupId>org.apache.hadoop</groupId>
             <artifactId>hadoop-common</artifactId>
             <version>2.6.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/hadoop-common-2.6.0.jar</systemPath>
+            <!--<scope>system</scope>-->
+            <!--<systemPath>${basedir}/lib/hadoop-common-2.6.0.jar</systemPath>-->
         </dependency>
         <!-- https://mvnrepository.com/artifact/commons-httpclient/commons-httpclient -->
         <dependency>
